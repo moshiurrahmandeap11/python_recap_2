@@ -59,11 +59,11 @@ os.system("cls")
 
 user_list = []
 
-for i in range(5):
-    user_input = int(input("Enter number :", ))
-    user_list.append(user_input)
+# for i in range(5):
+#     user_input = int(input("Enter number :", ))
+#     user_list.append(user_input)
 
-print("user inputed number :", user_list)
+# print("user inputed number :", user_list)
 
 
 os.system("cls")
@@ -80,3 +80,22 @@ for nums in num_list:
         big_num = nums
 
 print("big number from the list :", big_num)
+
+os.system("cls")
+
+
+# Task 5 (function + list combine): Ekta function likho average(numbers_list) jeta ekta list nibe ar tar average return korbe
+
+def average(numbers_list):
+
+    total_func_num = 0
+
+    for func_num in numbers_list:
+        total_func_num = total_func_num + func_num
+    average_func_result = total_func_num / len(numbers_list)
+    return average_func_result
+
+
+numbe_list = [1,3,6,9]
+result = average(numbe_list)
+print("The average is :", result)

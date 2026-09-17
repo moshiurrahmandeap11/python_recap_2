@@ -59,8 +59,24 @@ os.system("cls")
 
 user_list = []
 
-for i in range(7):
+for i in range(5):
     user_input = int(input("Enter number :", ))
     user_list.append(user_input)
 
 print("user inputed number :", user_list)
+
+
+os.system("cls")
+
+
+# Task 4: Ekta list theke sobcheye boro number ber koro (loop diye, built-in max() use na kore)।
+
+num_list = [1,2,3,4,5]
+
+big_num = num_list[0]
+
+for nums in num_list:
+    if nums > big_num:
+        big_num = nums
+
+print("big number from the list :", big_num)

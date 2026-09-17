@@ -4,14 +4,13 @@ import sys
 
 for i in range(10):
     print("moshiur ", i)
-    i = i + 1
 
 
 
 os.system("cls")
 
 
-for i in range(5):
+for i in range(1, 5):
     for j in range(4):
         print("moshiur ", i, j)
 

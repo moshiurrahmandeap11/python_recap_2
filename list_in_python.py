@@ -45,5 +45,22 @@ os.system("cls")
 
 numbers = [1,2,3,4,5]
 
+total_sum = 0
+
 for number in numbers:
-    
+    total_sum = total_sum + number
+
+print("total sum :", total_sum)
+
+os.system("cls")
+
+
+# Task 3: Ekta list e user theke 5 ta number nao (input diye, loop e), tarpor list ta print koro।
+
+user_list = []
+
+for i in range(7):
+    user_input = int(input("Enter number :", ))
+    user_list.append(user_input)
+
+print("user inputed number :", user_list)

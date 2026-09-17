@@ -16,7 +16,34 @@ print(fruits)
 print(len(fruits))
 
 import os
-# os.system("cls")
+os.system("cls")
 
 for fruit in fruits:
     print(fruit)
+
+
+
+os.system("cls")
+
+
+
+
+
+# Task 1: Ekta list banao 5 ta number diye। Loop use kore shob number print koro।
+
+
+
+numbers = [1,2,3,4,5]
+
+for number in numbers:
+    print(number)
+
+
+os.system("cls")
+
+# Task 2: Ekta list banao 5 ta number diye। Loop diye shob number er sum ber koro।
+
+numbers = [1,2,3,4,5]
+
+for number in numbers:
+    
